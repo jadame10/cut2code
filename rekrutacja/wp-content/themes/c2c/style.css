@@ -7,6 +7,15 @@ Author: MZ
 Author URI: Your website address.
 */
 
+/*
+Theme Name: Cut2code.
+Theme URI: Your Theme's URI
+Description: A brief description.
+Version: 1.0
+Author: MZ
+Author URI: Your website address.
+*/
+
 *{
   margin: 0;
   padding: 0;
@@ -165,8 +174,10 @@ padding: 2% 0;
 background-color: #ff4363;
 width: 100%;
 height: 300px;
-margin-top: 3%;
-padding-top:100px;
+margin-top: 4%;
+display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .lower-content div, .lower-content p{
 color: white;
@@ -224,14 +235,20 @@ padding-top: 36px;
   max-width: 230px;
   max-height: 320px;
 }
+.info-image{
+max-width: 55%;
+object-fit: contain;
+}
+.lower-content{
+height: 270px;
+margin-top: 5%;
+}
 }
 @media (max-width: 1030px){
 .top-image{
 min-height: 700px;
 }
-.lower-content{
-  height: auto;
-}
+
 }
 @media (max-width: 760px){
 .main-slogan{
@@ -267,13 +284,16 @@ margin-top: 100px;
   max-width: 80%;
 }
 .card{
-  margin-top: 10%;
-  margin-bottom: 5%;
+  margin: 10% auto 5% auto;
+width: 80%;
+display: block;	
+padding: 5%;
 }
 .lower-content{
-  margin-bottom: 70px;
-  padding-bottom: 50px;
- }
+height: auto;
+padding-top: 50px;
+	padding-bottom: 50px;
+}
 }
 @media (max-width: 440px){
 .top-image{
@@ -284,9 +304,14 @@ object-position: right;
   display: none;
 }
 .info-image2{
-width: 100%
-max-height: 300px;
+width: 200px;
+height: 300px;
 display: block;
-margin-right: 6%;
+margin: 60px auto;	
+}
+}
+@media (min-width: 1800px){
+.main-slogan{
+top: 50%;		
 }
 }
