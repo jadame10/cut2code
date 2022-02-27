@@ -1,0 +1,292 @@
+/*
+Theme Name: Cut2code.
+Theme URI: Your Theme's URI
+Description: A brief description.
+Version: 1.0
+Author: MZ
+Author URI: Your website address.
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+.containerz::after, .containerz::before{
+  content: "";
+  display: block;
+  clear: both;
+}
+.container-fluid, header, .top-image, .t0{
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+  overflow-x: hidden;
+}
+.fa-bars{
+color: white;
+}
+.collapse .bg-light{
+border-radius: 20px;
+}
+.top-content{
+position: absolute;
+top: 3%;
+}
+.top-content h3{
+color: white;
+font-weight: 900;
+margin-top: 3%;
+}
+.main-slogan{
+position:absolute;
+top: 33%;
+}
+.main-slogan h3{
+font-size: 52px;
+font-family: 'Roboto', sans-serif;
+color: white;
+font-weight: 600;
+}
+.small-slogan{
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+color: white;
+padding-top: 3%;
+}
+.buttons1{
+margin-top: 5%;
+}
+.triangle{
+width: 0; 
+height: 0; 
+border-top: 7px solid transparent;
+border-bottom: 7px solid transparent;
+border-left: 15px solid white;
+}
+a.video-link{
+color: white;
+text-decoration: none;
+margin-left: 25px;
+padding-top: 2%;
+}
+.triangle, a.video-link{
+display: inline-block;
+}
+.btn-app{
+border-radius: 25px;
+color: #ff4363;
+}
+.card-img-top{
+width: 60px;
+height: 60px;
+margin: 25% auto 3% auto;
+}
+.card{
+text-align: center;
+padding: 2%;
+font-family: 'Poppins', sans-serif;
+-webkit-box-shadow: 10px 350px 60px 20px rgba(204, 204, 204, 0.4);
+box-shadow: 10px 30px 60px 20px rgba(204, 204, 204, 0.4);
+margin-top: 40%;
+margin-bottom: 20%;
+}
+.card-text{
+line-height: 3.3em;
+padding: 1%;
+}
+.card-title{
+margin: 5% 0 3% 0;
+font-weight: 900;
+}
+.information{
+margin-top: 10%;
+font-family: 'Poppins', sans-serif;
+}
+.info-image{
+width: 500px;
+height: 300px;
+margin-top: 150px;
+}
+.information h1{
+margin-top: 6%;
+}
+.information p{
+padding-top: 9%;
+}
+.info-list{
+list-style-type: none;
+font-size: 16px;
+}
+.info-list li::before{
+content: "\2022"; 
+color: #ff4363;
+font-weight: bold;
+display: inline-block;
+width: 1em;
+margin-left: -1em;
+font-size:30px;
+line-height:1em;
+vertical-align: middle;
+}
+.btn-learn{
+background-color: #ff4363;
+color: white;
+padding: 4% 7%;
+border-radius: 35px;
+}
+.middle-content{
+margin-top: 8%;
+}
+.middle-content h3{
+font-weight: 600;
+font-family: 'Roboto', sans-serif;
+}
+.info-image2{
+width: 370px;
+height: 440px;
+margin-top: 100px;
+float: right;
+}
+.middle-content h5{
+color: #ff4363;
+font-weight: 600;
+font-family: 'Poppins', sans-serif;
+cursor: pointer;
+}
+.answ1{
+display: none;
+cursor: pointer;
+text-align: justify;
+padding: 2% 0;
+}
+.lower-content{
+background-color: #ff4363;
+width: 100%;
+height: 300px;
+margin-top: 3%;
+padding-top:100px;
+}
+.lower-content div, .lower-content p{
+color: white;
+text-align: center;
+}
+.nmb, .mmm{
+display: inline-block;
+}
+.nmbb, .mmm{
+display: inline-block;
+}
+.lower-content p{
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+font-weight: 300;
+}
+.lower-content div{
+font-size: 40px;
+font-weight: 600;
+font-family: 'Roboto', sans-serif;
+}
+.lucky{
+margin-top: 7%;
+}
+.btn-contact{
+background-color: #ff4363;
+color: white;
+padding: 1% 4%;
+border-radius: 35px;
+margin: 0 auto;
+display: block;
+}
+footer{
+margin-top: 7%;
+background-color:black;
+color: white;
+min-height: 100px;
+
+}
+footer p{
+text-align: center;
+vertical-align: middle;
+}
+.f1{
+padding-top: 40px;
+font-size: 15px;
+}
+.log{
+font-size: 19px;
+font-weight: 900;
+padding-top: 36px;
+}
+@media (max-width: 1200px){
+.info-image2{
+  max-width: 230px;
+  max-height: 320px;
+}
+}
+@media (max-width: 1030px){
+.top-image{
+min-height: 700px;
+}
+.lower-content{
+  height: auto;
+}
+}
+@media (max-width: 760px){
+.main-slogan{
+  max-width: 60%;
+  margin-left: 5%;
+}
+.main-slogan h3{
+  font-size: 32px;
+}
+.small-slogan{
+font-size: 15px;
+}
+.buttons1{
+margin-top: 100px;
+}
+.top-content h3{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.information{
+  margin-left: 5%;
+  max-width: 80%;
+  margin-top: 0 !important;
+}
+.info-image{
+  margin-top: 30px;
+  max-width: 360px;
+	width: 100%;
+  object-fit: contain;
+}
+.middle-content{
+  margin-left: 5%;
+  max-width: 80%;
+}
+.card{
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.lower-content{
+  margin-bottom: 70px;
+  padding-bottom: 50px;
+ }
+}
+@media (max-width: 440px){
+.top-image{
+object-fit: cover;
+object-position: right;
+}
+.main-slogan{
+  display: none;
+}
+.info-image2{
+width: 100%
+max-height: 300px;
+display: block;
+margin-right: 6%;
+}
+}
