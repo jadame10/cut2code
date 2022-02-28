@@ -1,0 +1,21 @@
+Pytania dla klienta:
+1) Czego oczekuje od Swojej strony? 
+2) Jakie będzie przeznaczenie strony?
+3) Jakich funkcjonalności oczekuje ?
+4) Dla jakiej grupy użytkowników ma byc przeznaczona ?
+5) Do jakiego celu ma być użyta strona ?
+6) Czy ma jakieś specjalne wymagania co do grafiki strony (np kolory lub inne) ?
+
+Adres gotowej strony: http://esklep0.webd.pro/sample-page/
+
+Dostęp do zaplecza 
+l: c2c
+p: Wjj(AfaqfPaGz!waErOQJYdN
+
+Stronę edytujemy poprzez Wygląd >> Dostosuj ,
+Tam są wydzielone pola edycji.
+
+Uwagi: Sprawdzałem stronę na wszystkich wymienionych przeglądarkach i
+działa, jedynie Safari ją zmienia - gdybym miał więcej czasu, dostosowałbym style dla Safari.
+
+Na projekt poświęciłem około 24 godzin.
