@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'cut2code' );
+define( 'DB_NAME', 'c2c' );
 
 /** MySQL database username */
 define( 'DB_USER', 'root' );
