@@ -8,10 +8,7 @@ Pytania dla klienta:
 
 Adres gotowej strony: http://esklep0.webd.pro/sample-page/
 
-Dostęp do zaplecza 
-strona: http://esklep0.webd.pro/wp-admin
-l: c2c
-p: Wjj(AfaqfPaGz!waErOQJYdN
+
 
 Stronę edytujemy poprzez Wygląd >> Dostosuj ,
 Tam są wydzielone pola edycji.
